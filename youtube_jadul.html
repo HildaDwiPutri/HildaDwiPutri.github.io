@@ -1,0 +1,57 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>  
+<meta charset="utf-8">
+<title>Untitled Document</title>
+ 
+<!-- 
+document.getElementById('iframeID').contentWindow.location.reload();
+document.getElementById('iframeID').src = document.getElementById('iframeID').src;
+<iframe src="https://www.youtube.com/embed/WTAHzO1i6Mw" width="520" height="360" frameborder="0"></iframe>
+-->
+
+<script src="xxxxjquery-latest.min.js"></script> 
+  
+<script>
+  
+function init() {
+	var vidDefer = document.getElementsByTagName('iframe');
+	for (var i=0; i<vidDefer.length; i++) {
+		if(vidDefer[i].getAttribute('data-src')) {
+		vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+		}
+	}
+}
+function playnew(src) {
+	//alert(src);
+	var vidDefer = document.getElementsByTagName('iframe');
+	for (var i=0; i<vidDefer.length; i++) {
+		if(vidDefer[i].getAttribute('data-src')) {
+		vidDefer[i].setAttribute('src',src);
+		}
+	}
+	//document.getElementById('myvid').src = src;
+	//document.getElementById('myvid').location.reload();
+	
+}
+
+window.onload = init;
+
+</script>
+
+
+
+</head>
+
+<body>
+ 
+ <iframe src="" id="myvid" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" 
+ data-src="https://www.youtube.com/embed/WTAHzO1i6Mw">
+ </iframe>
+
+ 
+<a href="#" onclick="playnew('https://www.youtube.com/embed/6v2L2UGZJAM')" >PLAY</a> 
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+	font:16px/28px arial,sans-serif;
+	color: #333;
+	background-image: url(C.jpg);
+}
+.imglog{
+	width: 50%;
+	height: 50%;
+	border-radius:50%;
+	background-color: black;
+}
+.kotak_login{
+	width: 350px;
+	background-color: #89C4F4;
+	border-color: lightgray;
+	color: pink;
+	cursor:pointer;
+	margin :80px auto;
+	padding: 30px 20px;
+	border:3px solid lightgray;
+	border-radius: 20px;
+}
+.tulisan_login{
+	text-align: center;
+	border:3px solid lightgray;
+	color: white;
+	border-radius: 20px;
+	background-color: black;
+}
+.form_login{
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: black;
+	font-size: 12pt;
+	box-sizing: border-box;
+	border-radius: 20px;
+	color:white;
+
+}
+.tombol_login{
+	background: black;
+	color: white;
+	width: 100%;
+	border:none;
+	border-radius: 20px;
+	padding: 10px 20px;
+
+}
+label{
+	font-size: 20px;
+	color: black;
+
+}

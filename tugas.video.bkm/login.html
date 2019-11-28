@@ -1,0 +1,58 @@
+S<!DOCTYPE html>
+<html>
+<head>
+    <title>LOGIN</title>
+    <link rel="stylesheet" type="text/css" href="LOG.css">
+</head>
+<script >
+    function authuser(){
+        var sukses = false;
+
+        var users = ['Hilda','Putri'];
+        var passwords = ['hhhhh','bbb'];
+
+        var Username = document.getElementById("Username").value;
+        var password = document.getElementById("password").value;
+
+        if ((Username == null || Username =='') || (password == null || password =='')){
+            alert("tidak boleh kosong");
+            return;
+        }else{
+            for ( var i = 0; i < users.length; i++){
+                if (users[i].toLowerCase() == Username.toLowerCase() && passwords[i].toLowerCase() == password.toLowerCase()){
+                    document.location.href = "single-video.html";
+                    sukses = true;
+                    break;
+                }
+            }
+            if (!sukses){
+                alert("Gagal Login")
+            }
+        }
+    }
+</script>
+<body>
+    <div class="kotak_login">
+        <center><img src="ikonn.jpeg" alt="imglog" class="imglog">
+        <p class="tulisan_login">Silahkan Login</p></center>
+
+
+        <form>
+            <label>Username</label>
+            <input type="text" name="Username" id="Username" class="form_login"placeholder="Username atau email.." required="" >
+            <br>
+            <br>
+
+            <label>Password</label>
+            <input type="Password" name="password" id="password" class="form_login" placeholder="Password.." required="">
+            <br>
+            <br>
+
+
+            <!--<button type="button" onclick="authuser()">Login</button>-->
+            <button type="button" onclick="authuser()" class="tombol_login" value="LOGIN">LOGIN</button>
+        </form>
+    </div>
+
+</body>
+</html>
