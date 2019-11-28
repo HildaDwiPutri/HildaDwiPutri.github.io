@@ -1,0 +1,90 @@
+{
+	"Sandal" :
+	[
+		{
+			"Diskon" : "25%",
+			"Image" : "Assets/Img/a.jpg",
+			"Nama"  : "SANDAL CASUAL TUF CHARA - BROWN",
+			"Harga" : "Rp149.000",
+			"Rating" : "Assets/Img/R6.png"
+		},
+		{
+			"Diskon" : "15%",
+			"Image" : "Assets/Img/b.jpeg",
+			"Nama"  : "SANDAL GUNUNG TERBARU TUF SHOES BLACK",
+			"Harga" : "Rp225.000",
+			"Rating" : "Assets/Img/R2.png"
+		},
+		{
+			"Diskon" : "20%",
+			"Image" : "Assets/Img/c.jpeg",
+			"Nama"  : "SANDAL TUF SHOES REIWAL BLACK CREAM GREEN",
+			"Harga" : "Rp189.000",
+			"Rating" : "Assets/Img/R3.png"
+		},
+		{
+			"Diskon" : "10%",
+			"Image" : "Assets/Img/d.png",
+			"Nama"  : "SANDAL GUNUNG PRIA TUF REIWAL-BLACK",
+			"Harga" : "Rp189.000",
+			"Rating" : "Assets/Img/R4.png"
+		},
+		{
+			"Diskon" : "15%",
+			"Image" : "Assets/Img/e.jpeg",
+			"Nama"  : "SANDAL PRIA TUF RAINIER - WHITE BLACK CREAM",
+			"Harga" : "Rp189.000",
+			"Rating" : "Assets/Img/R5.png"
+		},
+		{
+			"Diskon" : "25%",
+			"Image" : "Assets/Img/f.jpeg",
+			"Nama"  : "SANDAL PRIA&WANITA TUF SHOES PRAU NAVY",
+			"Harga" : "Rp225.000",
+			"Rating" : "Assets/Img/R1.png"
+		},
+		{
+			"Diskon" : "15%",
+			"Image" : "Assets/Img/g.png",
+			"Nama"  : "Sandal Gunung Pria Wanita Tuf Rainier - White Black",
+			"Harga" : "Rp189.000",
+			"Rating" : "Assets/Img/R5.png"
+		},
+		{
+			"Diskon" : "20%",
+			"Image" : "Assets/Img/h.png",
+			"Nama"  : "Sandal Tuf Shoes Rainier-White Black Maroon",
+			"Harga" : "Rp225.000",
+			"Rating" : "Assets/Img/R1.png"
+		},
+		{
+			"Diskon" : "18%",
+			"Image" : "Assets/Img/i.jpeg",
+			"Nama"  : "SANDAL CASUAL PRIA & WANITA TUF SERRA",
+			"Harga" : "Rp159.000",
+			"Rating" : "Assets/Img/R4.png"
+		},
+		{
+			"Diskon" : "20%",
+			"Image" : "Assets/Img/j.jpg",
+			"Nama"  : "Sandal Tuf Shoes Pria & wanita Ainaro Brown",
+			"Harga" : "Rp149.000",
+			"Rating" : "Assets/Img/R3.png"
+		},
+		{
+			"Diskon" : "25%",
+			"Image" : "Assets/Img/k.png",
+			"Nama"  : "Sandal Gunung Pria Tuf Shoes Reiwal Black and White",
+			"Harga" : "Rp190.000",
+			"Rating" : "Assets/Img/R2.png"
+		},
+		{
+			"Diskon" : "15%",
+			"Image" : "Assets/Img/l.png",
+			"Nama"  : "SANDAL CASUAL PRIA & WANITA Tuf Chara Black",
+			"Harga" : "Rp160.000",
+			"Rating" : "Assets/Img/R6.png"
+		}
+
+	]
+}
